@@ -25,7 +25,7 @@ public class MainServlet extends HttpServlet {
         out.write("<title>You are welcome!</title>");
         out.write("</head>");
         out.write("<body>");
-        out.write("<h3>"+"<a href=\"\\todo-items\">&Cscr;ontinue</a> "+"</h3>"+"</center>");
+        out.write("<h3>"+"<a href=\"\\in\">&Cscr;ontinue</a> "+"</h3>"+"</center>");
         out.write("</body>");
         out.write("</html>");
 
