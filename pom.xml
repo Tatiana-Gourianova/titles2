@@ -9,7 +9,7 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
 	<description>project for titles translation </description>
-	<name>task-translate</name>
+	<name>tasktranslate</name>
 	 <parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
@@ -31,24 +31,9 @@
 			<artifactId>mysql-connector-java</artifactId>
 			<scope>runtime</scope>
 		</dependency>
-	<!-- 	
-		<dependency>
-			<groupId>com.microsoft.sqlserver</groupId>
-			<artifactId>mssql-jdbc</artifactId>
-			<version>9.2.1.jre8</version>
-		</dependency>-->
-		<dependency>
-			<groupId>javax.servlet</groupId>
-			<artifactId>jstl</artifactId>
-			<version>1.2</version>
-		</dependency>
 
-		<dependency>
-			<groupId>javax.servlet</groupId>
-			<artifactId>javax.servlet-api</artifactId>
-			<version>4.0.1</version>
-			<!--  <scope>provided</scope>-->
-		</dependency>
+
+
 
 		<dependency>
 			<groupId>org.primefaces</groupId>
@@ -92,14 +77,14 @@
 			<artifactId>miglayout</artifactId>
 			<version>3.7.4</version>
 		</dependency>
-		<dependency>
+	<!--	<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
-		</dependency>
+		</dependency>-->
 
 	</dependencies>
 	<build>
-		<finalName>task-translate</finalName>
+		<finalName>tasktranslate</finalName>
 	<!-- 	<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>

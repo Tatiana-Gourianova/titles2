@@ -1,11 +1,11 @@
 package com.gourianova.titles.model;
-import lombok.*;
+//import lombok.*;
 
-@Getter
-@AllArgsConstructor
-@EqualsAndHashCode
-@ToString
-@Setter
+//@Getter
+//@AllArgsConstructor
+//@EqualsAndHashCode
+//@ToString
+//@Setter
 
 public class TitleUnit {
     int id;
